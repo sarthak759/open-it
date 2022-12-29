@@ -12,7 +12,7 @@ const Dialouge = ({text, onClick, i}) => {
 
   return(
     <div className="main-box">
-        {i==5 ? (
+        {i===5 ? (
             <div className="query-box">
                 <p className= "query-text blue">Yay!!!!!!</p>
                 <p className="query-text blue">I am sure we will have a great time together &lt;3</p>
