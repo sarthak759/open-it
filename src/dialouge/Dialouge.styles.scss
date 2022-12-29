@@ -1,0 +1,43 @@
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .query-box{
+        border: 1px;
+        border-radius: 5px;
+        border-color: rgba(101, 101, 101, 0.397);
+        border-style: solid;
+        display: flex;
+        flex-direction: column;
+        padding: 4% 5%;
+        background-color: rgba(240, 248, 255, 0.305);
+        .query-text{
+            font-weight: 600;
+            font-family: sans-serif;
+            font-style: italic;
+            font-size: x-large;
+            color: rgb(70, 246, 47);
+            
+        }
+        .blue{
+            color: rgb(242, 250, 5);
+        }
+        .btn-box{
+            display: flex;
+            justify-content: flex-start;
+            .btn{
+                padding: 2% 15%;
+                color: white;
+                margin: 0 3%;
+                font-size: larger;
+                border-style: none;
+                background-color: blue;
+                border-radius: 5px;
+                opacity: 80%;
+            }
+            .yellow{
+                background-color: red;
+            }
+        }
+    }
+}
